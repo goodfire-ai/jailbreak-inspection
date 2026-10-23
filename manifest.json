@@ -1,6 +1,6 @@
 {
   "schema": "real-chat-public-inspection/1",
-  "publication_producer": "e8c550266e29a1a2c03f180547165b2e2e78b131",
+  "publication_producer": "a15e7ade484ff86e1431675e9f2a75ff5f4f6ee9",
   "refresh_producer": "cfc7465484b7987d968e8b762edc8c044276d643",
   "refresh_manifest_sha256": "92bed59b1074fae473c84075b8ccac4b4705836b7048acb84d52bf30e6dbc17c",
   "mixed_probe_sha256": "1adec7a8eea90fcf117dc3c80bafe6261bc6e2b97f788bfa4012e2e1739df9f9",
@@ -37,8 +37,8 @@
     },
     {
       "path": "inspection.html",
-      "sha256": "8b084e0d40ec8d9384a859e5cc2e60f5a5eb322f9352be1a0c07b825d33e4670",
-      "bytes": 8960820
+      "sha256": "540b84739a281b4547dd8ddc3a5cd56c570a75b63a1a3fd335bf5a8a4804ccfb",
+      "bytes": 8961092
     },
     {
       "path": "overview.png",
@@ -121,5 +121,5 @@
       "provider_filter": 2
     }
   },
-  "annotation_manifest_sha256": "14e7efa1329e687e446a7b9789185275e51a22dc0aec56d9cfccb29d17744c10"
+  "annotation_manifest_sha256": "a6a9fbc954a390ecb9217645fd948f8414ac50c1460580a7ea3f2d36b9dd9856"
 }
