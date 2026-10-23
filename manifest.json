@@ -1,6 +1,6 @@
 {
   "schema": "real-chat-public-inspection/1",
-  "publication_producer": "822234b65d146621956987ad7ba16a608591b4ca",
+  "publication_producer": "e8c550266e29a1a2c03f180547165b2e2e78b131",
   "refresh_producer": "cfc7465484b7987d968e8b762edc8c044276d643",
   "refresh_manifest_sha256": "92bed59b1074fae473c84075b8ccac4b4705836b7048acb84d52bf30e6dbc17c",
   "mixed_probe_sha256": "1adec7a8eea90fcf117dc3c80bafe6261bc6e2b97f788bfa4012e2e1739df9f9",
@@ -37,8 +37,8 @@
     },
     {
       "path": "inspection.html",
-      "sha256": "c28034cfd93d8f775eb8f9fb730caa48f1227304fae23be7e95390e7d519dbab",
-      "bytes": 8985342
+      "sha256": "8b084e0d40ec8d9384a859e5cc2e60f5a5eb322f9352be1a0c07b825d33e4670",
+      "bytes": 8960820
     },
     {
       "path": "overview.png",
@@ -57,8 +57,8 @@
     },
     {
       "path": "top-hits.jsonl",
-      "sha256": "7043e01fdb511c0fafff382da8fcaf2fe7caed86ad22746625ae1056c6cbf35f",
-      "bytes": 8931796
+      "sha256": "f39c93b19113e3d86c52281ef5d1455bbfe3148b2ecc027b11e5e87e8eaa31a6",
+      "bytes": 8907582
     }
   ],
   "annotation": {
@@ -121,5 +121,5 @@
       "provider_filter": 2
     }
   },
-  "annotation_manifest_sha256": "3fe8ffdf79a4ec68f5ed385d7c3c29b1b777684af5ea108c768918c3e578c36b"
+  "annotation_manifest_sha256": "14e7efa1329e687e446a7b9789185275e51a22dc0aec56d9cfccb29d17744c10"
 }

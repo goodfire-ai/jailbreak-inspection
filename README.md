@@ -4,7 +4,7 @@ Detector-selected inspection candidates, with original model replies and context
 The new mixed-mining Qwen3.8-27B probe ranked 48,009 eligible cached WildChat requests.
 The viewer contains 353 requests in 329 groups and 649 original rollouts, including 160 WildChat requests.
 
-Each approach has a clickable summary that opens its full original chats. Fresh request-only `gpt-6-astra` reviews cover 351 requests; two provider-filtered requests have clearly attributed editorial summaries and unavailable judgments. Four restricted-content entries were removed from the selected export after review.
+Each card previews the opening attack text, Astra’s verdict and the existing calibrated mined-probe probability. Click the preview for generated summaries, rationales and full original chats. Initial-probe results are omitted from the viewer and JSONL. Fresh request-only `gpt-6-astra` reviews cover 351 requests; two provider-filtered requests have clearly attributed editorial summaries and unavailable judgments. Four restricted-content entries were removed from the selected export after review.
 
 Open `inspection.html` through GitHub Pages. Use **Copy link to this view** to share filters, or download filtered JSONL and standalone HTML.
 
