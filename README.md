@@ -1,5 +1,14 @@
 # Real-chat jailbreak probe inspection
 
+**Updated probe, compact gallery:** [WildChat + Anomaly top hits](https://goodfire-ai.github.io/jailbreak-inspection/top-hits/).
+The standalone page combines 50 content-screened requests from each corpus,
+with original replies, current human-refit probe scores, corpus/source filters,
+individual-hit links and an offline HTML download. Sexually graphic requests
+or replies are omitted. WildChat reranks the earlier selected public collection;
+Anomaly uses the scored usage sample. See the page's selection notes and
+`top-hits/manifest.json` for provenance. The older collection below is retained
+as a separate historical viewer.
+
 Detector-selected inspection candidates, with original model replies and context.
 The new mixed-mining Qwen3.8-27B probe ranked 48,009 eligible cached WildChat requests.
 The viewer contains 353 requests in 329 groups and 649 original rollouts, including 160 WildChat requests.
