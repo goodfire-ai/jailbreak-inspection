@@ -1,13 +1,23 @@
 # Real-chat jailbreak probe inspection
 
-**Updated probe, compact gallery:** [WildChat + Anomaly top hits](https://goodfire-ai.github.io/jailbreak-inspection/top-hits/).
-The standalone page combines 46 WildChat and 49 Anomaly requests after content screening,
-with original replies, current human-refit probe scores, corpus/source filters,
-individual-hit links, English translations and an offline HTML download. Sexually graphic requests
-or replies are omitted. WildChat reranks the earlier selected public collection;
-Anomaly uses the scored usage sample. See the page's selection notes and
-`top-hits/manifest.json` for provenance. The older collection below is retained
-as a separate historical viewer.
+**Updated probe, compact gallery:** [WildChat + Anomaly top hits](https://goodfire-ai.github.io/jailbreak-inspection/top-hits/?revision=460a364c5df9).
+The current standalone page contains 50 fresh WildChat requests and 50 rescored
+Anomaly requests, with original replies, English translations, judge labels,
+source filters, individual-hit links and offline HTML download. Graphic sexual
+content and credential-shaped strings are excluded from both sides of each
+exported pair.
+
+The WildChat follow-up judged 2,131 mining requests with Luna and Sol at high
+reasoning under the main constitution. The refit added 903 training negatives
+(including 128 SQL cases) and 68 attempts. It then ranked 29,741 supported
+requests from 20,000 separate parents, first three eligible user turns per parent.
+The [round report](https://goodfire-ai.github.io/jailbreak-inspection/top-hits/round-report.html?revision=460a364c5df9)
+compares both probes on the same WildChat/Anomaly FPR reference sets and shows
+the earlier SQL score changes, explicitly separating four trained examples from
+two held-out validation examples. `top-hits/manifest.json` records provenance.
+The new checkpoint SHA-256 starts `da9dee0423bc`.
+
+The older inspection collection below remains available as a historical viewer.
 
 Detector-selected inspection candidates, with original model replies and context.
 The new mixed-mining Qwen3.8-27B probe ranked 48,009 eligible cached WildChat requests.
