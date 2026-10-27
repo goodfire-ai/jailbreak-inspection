@@ -1,9 +1,9 @@
 # Real-chat jailbreak probe inspection
 
 **Updated probe, compact gallery:** [WildChat + Anomaly top hits](https://goodfire-ai.github.io/jailbreak-inspection/top-hits/).
-The standalone page combines 50 content-screened requests from each corpus,
+The standalone page combines 46 WildChat and 49 Anomaly requests after content screening,
 with original replies, current human-refit probe scores, corpus/source filters,
-individual-hit links and an offline HTML download. Sexually graphic requests
+individual-hit links, English translations and an offline HTML download. Sexually graphic requests
 or replies are omitted. WildChat reranks the earlier selected public collection;
 Anomaly uses the scored usage sample. See the page's selection notes and
 `top-hits/manifest.json` for provenance. The older collection below is retained
